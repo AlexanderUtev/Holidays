@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Holidays/static/js/main.2411c193.chunk.js",
-    "main.js.map": "/Holidays/static/js/main.2411c193.chunk.js.map",
+    "main.js": "/Holidays/static/js/main.7bf6f1dc.chunk.js",
+    "main.js.map": "/Holidays/static/js/main.7bf6f1dc.chunk.js.map",
     "runtime-main.js": "/Holidays/static/js/runtime-main.cd48e22e.js",
     "runtime-main.js.map": "/Holidays/static/js/runtime-main.cd48e22e.js.map",
     "static/css/2.27cde75d.chunk.css": "/Holidays/static/css/2.27cde75d.chunk.css",
     "static/js/2.d0ad0335.chunk.js": "/Holidays/static/js/2.d0ad0335.chunk.js",
     "static/js/2.d0ad0335.chunk.js.map": "/Holidays/static/js/2.d0ad0335.chunk.js.map",
     "index.html": "/Holidays/index.html",
-    "precache-manifest.d1e75a93a790b6a762edf2b10655ed97.js": "/Holidays/precache-manifest.d1e75a93a790b6a762edf2b10655ed97.js",
+    "precache-manifest.1678d6f786d061d064ae4100383005ad.js": "/Holidays/precache-manifest.1678d6f786d061d064ae4100383005ad.js",
     "service-worker.js": "/Holidays/service-worker.js",
     "static/css/2.27cde75d.chunk.css.map": "/Holidays/static/css/2.27cde75d.chunk.css.map",
     "static/media/persik.png": "/Holidays/static/media/persik.39999b87.png"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cd48e22e.js",
     "static/css/2.27cde75d.chunk.css",
     "static/js/2.d0ad0335.chunk.js",
-    "static/js/main.2411c193.chunk.js"
+    "static/js/main.7bf6f1dc.chunk.js"
   ]
 }
