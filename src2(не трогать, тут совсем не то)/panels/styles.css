@@ -1,0 +1,245 @@
+.ico-align {                  /* Блок рецептов */ 
+    margin-left: -6px;        /* Сдвиг блока рецептов влево */
+    padding-top: 6px;         /* Сдвиг блока рецептов вниз */ 
+    padding-right: 6px;       /* Сдвиг текста рецептов вправо */
+    vertical-align: top;      /* Выравнивание верхнего края элемента по верху самого высокого элемента строки */
+    object-fit: cover;        /* Смещаемый контент меняет свой размер таким образом, чтобы сохранять свои пропорции при заполнении блока: окончательный размер контента будет определен как "покрытие" блока, ограничиваясь его шириной и высотой.*/
+}
+
+.ico-card {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.ico-align-category {         /* Блок категории сдвиги */ 
+    margin-left: -6px;        /* Сдвиг блока рецептов влево */
+    padding-top: 6px;         /* Сдвиг блока рецептов вниз */ 
+    padding-right: 6px;       /* Сдвиг текста рецептов вправо */
+    vertical-align: top;      /* Выравнивание верхнего края элемента по верху самого высокого элемента строки */
+}
+
+.ico-crop-category {          /* Блок категории размеры */ 
+    width: 200px;
+    max-width: 200px;
+    height: inherit;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+.ico-kitchen {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.ico-crop {
+    width: 100px;
+    max-width: 100px;
+    height: inherit;
+    max-height: 100px;
+    border-radius: 10px;
+}
+
+.ico-top {
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px -5px #00000080;
+    object-fit: cover;
+}
+
+/* 
+.category-outl {
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: transparent;      
+  background-color: #F0FFFF40;
+  border: 2px solid #528bcc;
+  color: var(--button_outline_foreground);
+  margin-right: 1255px;
+}  
+*/
+
+.desc-scroll {
+    padding: 2.5px 0px;
+}
+
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 26px;
+    max-height: 32px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.disable-selection {
+    color:  #808080;
+}
+
+.disable-selectionn {
+  color:  #808080;
+  margin-bottom: auto;
+}
+
+.zagolovok {
+    vertical-align: top;
+    margin-bottom: 100000px;
+}
+ 
+.img {
+    width: 100%;
+    height: auto;
+}
+
+
+.nopodcherk {
+    text-decoration: none;
+    color: #6c84a1;
+}
+
+.noperenos {
+    white-space: nowrap;
+}
+ 
+.center {
+    text-align: center;
+}
+ 
+.info {
+    font-weight: 600;
+}
+  
+.textauthor {
+    margin-left: 5px;
+}
+
+.nackl {
+    padding: 5px 10px 15px 20px;
+}
+
+.Header__content {
+  user-select: none !important;
+  white-space: normal;
+}
+
+.optictext {
+    float: right; /* Выравнивание по правому краю  */ 
+}
+
+.bug191512 {
+    display: none;
+}
+
+.Tooltip__content {    /* Размеры подсказки */
+    width: 100%;          /* Ширина */  
+    max-width: 100%;      /* Максимальная ширина */
+    font-size: 100%;     /* Размер шрифта */
+    background: #da4a3b;
+
+}
+
+.Tooltip__corner {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDIwIDgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+ICAgICAgICA8dGl0bGU+dG9vbHRpcF90aXA8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGRlZnM+PC9kZWZzPiAgICA8ZyBpZD0iTWFzdGVyLUtpdCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+ICAgICAgICA8cGF0aCBkPSJNMTAsMCBDMTMuNSwwIDE1LjUsOCAyMCw4IEwwLDggQzQuNSw4IDYuNSwwIDEwLDAgWiIgaWQ9InRvb2x0aXBfdGlwIiBmaWxsPSIjZGE0YTNiIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD4gICAgPC9nPjwvc3ZnPg==);
+
+}
+
+.Logo {
+    display: block;
+    width: 100%;
+    max-width: 10000px;
+    margin: 0px auto;
+}
+
+.ingr-text {
+    white-space: pre-wrap; /* Учитываются все пробелы и переносы */ 
+}
+  
+.instrukcia-text {
+    white-space: pre-wrap; /* Учитываются все пробелы и переносы */ 
+}
+
+.kitchen-text {
+    white-space: pre-wrap; /* Учитываются все пробелы и переносы */ 
+}
+
+.ico-top-category {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 0px; /* Расстояние от картинки до рамки */
+    background: auto; /* Цвет фона */
+    margin-right: 0px; /* Отступ справа */
+    margin-bottom: 0px; /* Отступ снизу */
+    object-fit: cover;
+    text-align: center;
+}
+
+.category-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.category-child {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  .category-child {
+    width: auto;
+  }
+}
+
+
+
+/* скрытый текст возле подвала для сео */
+ 
+.read-more-state {
+display: none;
+}
+ 
+.read-more-target {
+opacity: 0;
+max-height: 0;
+font-size: 0;
+transition: .0s ease;
+}
+ 
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+opacity: 1;
+font-size: inherit;
+max-height: 999em;
+}
+ 
+.read-more-state ~ .read-more-trigger:before {
+content: 'Показать полностью';
+}
+ 
+.read-more-state:checked ~ .read-more-trigger:before {
+content: 'Скрыть';
+}
+ 
+.read-more-trigger {
+color: #70aaea;
+}
+
+/* ЭТО ВСЕ ПРО скрытие текста */
+
+.scroll{
+  overflow-x: scroll;
+}
