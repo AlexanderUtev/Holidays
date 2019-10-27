@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/holidays/static/js/main.7bf6f1dc.chunk.js",
+    "main.js.map": "/holidays/static/js/main.7bf6f1dc.chunk.js.map",
+    "runtime-main.js": "/holidays/static/js/runtime-main.231d340b.js",
+    "runtime-main.js.map": "/holidays/static/js/runtime-main.231d340b.js.map",
+    "static/css/2.27cde75d.chunk.css": "/holidays/static/css/2.27cde75d.chunk.css",
+    "static/js/2.2d855d35.chunk.js": "/holidays/static/js/2.2d855d35.chunk.js",
+    "static/js/2.2d855d35.chunk.js.map": "/holidays/static/js/2.2d855d35.chunk.js.map",
+    "index.html": "/holidays/index.html",
+    "precache-manifest.8691045da5ecb0cd76344aa0ce61d8f1.js": "/holidays/precache-manifest.8691045da5ecb0cd76344aa0ce61d8f1.js",
+    "service-worker.js": "/holidays/service-worker.js",
+    "static/css/2.27cde75d.chunk.css.map": "/holidays/static/css/2.27cde75d.chunk.css.map",
+    "static/media/persik.png": "/holidays/static/media/persik.39999b87.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.231d340b.js",
+    "static/css/2.27cde75d.chunk.css",
+    "static/js/2.2d855d35.chunk.js",
+    "static/js/main.7bf6f1dc.chunk.js"
+  ]
+}
