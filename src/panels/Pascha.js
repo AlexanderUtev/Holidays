@@ -39,7 +39,7 @@ const Bought = props => (
 					</PanelHeader>
 					<Group>
 					<Div>
-				Здесь Вы можете найти поздравления к Пасхе!
+				<center>Здесь Вы можете найти поздравления к Пасхе!</center>
 						</Div>
 						</Group>
 

@@ -12,26 +12,16 @@ import Icon16CancelCircleOutline from '@vkontakte/icons/dist/16/cancel_circle_ou
 import connect from '@vkontakte/vkui-connect';
 const text = 'TEST';
 const isShowVkLogo = true;
-{/*const qrSvg = vkQr.createQR(
-	 256, 'classCode');
-
-const qrS1vg = vkQr.createQR('Text to encode', {
-  qrSize: 256,
-  isShowLogo: true
-});
-document.body.innerHTML = 'qrSvg';
-*/}
 const Gen = props => (
 	<Panel id={props.id}>
 	<PanelHeader>	Настройки </PanelHeader>
-					<Group title="Системные настройки">
+					<Group>
 						 <List>
 							 <Cell asideContent={<Switch onChange={() => props.eruda()} />}>Дебаг консоль</Cell>
-						 	<Cell  indicator={<Counter>1.00</Counter>}>Верcия</Cell>
+						 	<Cell  indicator={<Counter>1.0</Counter>}>Верcия</Cell>
+							<Cell  indicator={<Counter>Alexander Utev</Counter>}>Разработчик</Cell>
 						 </List>
 					 </Group>
-												{/*	<Button	size="xl" style={{ marginTop: 50}}	level="tertiary" >v1.95</Button>
-*/}
 	</Panel>
 );
 

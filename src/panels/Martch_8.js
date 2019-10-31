@@ -35,11 +35,11 @@ const Bought = props => (
 	<PanelHeader left={<HeaderButton onClick={props.onStoryChange} data-story="home">
 			{osname === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 		</HeaderButton>}>
-					 8 Марта
+					 8 марта
 					</PanelHeader>
 					<Group>
 					<Div>
-				Здесь Вы можете найти поздравления ко дню всех женщин!
+				<center>Здесь Вы можете найти поздравления к 8 марта!</center>
 						</Div>
 						</Group>
 

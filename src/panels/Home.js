@@ -23,50 +23,33 @@ import Icon16UserAdd from '@vkontakte/icons/dist/16/user_add';
 const Home = props => (
 	<Panel id={props.id}>
 	<Tappable>
-	<PanelHeader 	/*left={<HeaderButton style={{ marginLeft: 10 }} onClick={()=> connect.send("VKWebAppJoinGroup", {"group_id": 187015622})} >
-		 <Icon28Users/>
-		</HeaderButton>}*/>Поздравления</PanelHeader>
+	<PanelHeader>Поздравления</PanelHeader>
 			 </Tappable>
 	<Group>
 					<Div>
-			Привет, {props.userName}! Добро пожаловать в сервис, в котором ты сможешь найти поздравления для друзей и знакомых!
+			<center>Здравствуйте, {props.userName}! Добро пожаловать в сервис, в котором Вы сможете найти поздравления для друзей и знакомых!</center>
 						</Div>
 						</Group>
 						<Group title="">
-
- {/*<Button size='xl'/>*/}
 											 <List>
-												 <Cell expandable onClick={props.onStoryChange} data-story='ny' >Новый Год</Cell>
-												 <Cell expandable onClick={props.onStoryChange} data-story='birthday' >День Рождения</Cell>
+												 <Cell expandable onClick={props.onStoryChange} data-story='ny' >Новый год</Cell>
+												 <Cell expandable onClick={props.onStoryChange} data-story='birthday' >День рождения</Cell>
 												 <Cell expandable onClick={props.onStoryChange} data-story='martch_8' >8 марта</Cell>
 												 <Cell expandable onClick={props.onStoryChange} data-story='feb_23' >23 февраля</Cell>
 												 <Cell expandable onClick={props.onStoryChange} data-story='pascha' >Пасха</Cell>
-												 <Cell expandable onClick={props.onStoryChange} data-story='day_of_knowns' >День знаний</Cell>
-
-											{	/*
-												<Cell expandable onClick={props.onStoryChange} data-story='pressure' >К</Cell>
-												<Cell expandable onClick={props.onStoryChange} data-story='mosh' >Мощность</Cell>
-												<Cell expandable onClick={props.onStoryChange} data-story='speed' >Скорость</Cell>
-												<Cell expandable onClick={props.onStoryChange} data-story='energy' >Энергия</Cell>
-												<Cell expandable onClick={props.onStoryChange} data-story='radiate' >Количество информации</Cell>
-												<Cell expandable onClick={props.onStoryChange} data-story='corn'>Мера геометрического угла</Cell>
-												<Cell expandable onClick={props.onStoryChange} data-story='radiate' >Доза облучения (В активной разработке)</Cell>
-											 */}
-
+												 <Cell expandable onClick={props.onStoryChange} data-story='day_of_knowns' >1 сентября</Cell>
 											 </List>
-											 		{/*<Button size='xl'/>*/}
-
 
 										 </Group>
 
 										 <Div>
 
 										 { props.group === '1' ? <Button size="l" style={{marginLeft: '120px'}} data-story='pressure' level="secondary" onClick={() => {
-											 connect.send("VKWebAppJoinGroup", {"group_id": 187015622})
+											 connect.send("VKWebAppJoinGroup", {"group_id": 188069788})
 										 	}
 										 }>
 										 <Icon16UserAdd/></Button> : <Button size="l" disabled style={{marginLeft: '120px'}} data-story='pressure' level="secondary" onClick={() => {
-											 connect.send("VKWebAppJoinGroup", {"group_id": 187015622})
+											 connect.send("VKWebAppJoinGroup", {"group_id": 188069788})
 										 	}
 										 }>
 										 <Icon16Users/></Button>}
@@ -89,7 +72,6 @@ const Home = props => (
 
 Home.propTypes = {
 	id: PropTypes.string.isRequired,
-	//onStoryChange: PropTypes.string.onStoryChange,
 	go: PropTypes.func.isRequired,
 	fetchedUser: PropTypes.shape({
 		photo_200: PropTypes.string,

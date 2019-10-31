@@ -35,11 +35,11 @@ const Bought = props => (
 	<PanelHeader left={<HeaderButton onClick={props.onStoryChange} data-story="home">
 			{osname === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 		</HeaderButton>}>
-					 День знаний
+					 1 сентября
 					</PanelHeader>
 					<Group>
 					<Div>
-				Здесь Вы можете найти поздравления ко Дню Знаний!
+				<center>Здесь Вы можете найти поздравления к 1 сентября!</center>
 						</Div>
 						</Group>
 
